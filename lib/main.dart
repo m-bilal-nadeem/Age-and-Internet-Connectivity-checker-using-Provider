@@ -1,5 +1,4 @@
-import 'package:abc/practice/expension_tile.dart';
-import 'package:abc/age_connectivity.dart';
+import 'package:abc/screens/auth_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -24,9 +23,8 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: Practice1(),
+      home: AuthScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
 }
-
